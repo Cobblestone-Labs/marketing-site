@@ -1,0 +1,36 @@
+body, html {
+    height: 100%;
+    overflow: hidden;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../images/cobblestone.jpg");
+
+  /* Set a specific height */
+  height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-filter: blur(10px);
+  filter: blur(10px);
+  transform: scale(1.1);
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: "Lora";
+}
+
+.hero-text h1 {
+    font-size: 48px;;
+}
